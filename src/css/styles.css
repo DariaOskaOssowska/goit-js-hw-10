@@ -7,7 +7,9 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: rgb(192, 180, 180);
+ /* background-image: url(../images/world.jpg);
+  background-repeat: no-repeat; */
   color: #212121;
   line-height: 1.5;
 }
@@ -17,4 +19,13 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  transition: width 0.4s ease-in-out;
+}
+
+#search-box:focus {
+width: 100%;
+}
+
+.country-list {
+  list-style: none;
 }
